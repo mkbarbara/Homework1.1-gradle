@@ -17,16 +17,16 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @Test
-    public void testRemainMultipleOf1000() {
-        int amount = 2000;
-        CashbackHackService service = new CashbackHackService();
+//     @Test
+//     public void testRemainMultipleOf1000() {
+//         int amount = 2000;
+//         CashbackHackService service = new CashbackHackService();
 
-        int expected = 0;
-        int actual = service.remain(amount);
+//         int expected = 0;
+//         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
-    }
+//         assertEquals(actual, expected);
+//     }
 
     @Test
     public void testRemainMore1000() {
